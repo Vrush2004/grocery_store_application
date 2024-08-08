@@ -1863,3 +1863,64 @@ input[type=search] {
 .tabs-left > .nav-tabs > li > a {
     margin: 7px;
 }
+
+.box-info .nav-tabs > li > a > i {
+    color: #8B91A0;
+    margin-right: 8px;
+}
+
+.box-info .nav-tabs > li.active > a, .box-info .nav-tabs > li.active > a:focus, .box-info .nav-tabs > li.active > a:hover {
+    background: #f1f1f1;
+}
+
+form.form-inline {
+    display: inline
+}
+
+#myTabContent {
+    border-left: 1px solid #eee;
+    /*padding-left: 0 !important;*/
+    /*padding-right: 0 !important;*/
+}
+
+#myTabContent form.config-general-form input[type="submit"] {
+    margin: 0 15px 10px;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #2265d0;
+    border-color: #2265d0;
+}
+
+.bootstrap-select {
+    z-index: inherit !important
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: none !important;
+}
+
+.tabs-below > .nav-tabs,
+.tabs-left > .nav-tabs,
+.tabs-right > .nav-tabs {
+    border-bottom: 0
+}
+
+.pill-content > .pill-pane,
+.tab-content > .tab-pane {
+    display: none
+}
+
+.pill-content > .active,
+.tab-content > .active {
+    display: block
+}
+
+.tabs-below > .nav-tabs {
+    border-top: 0 solid #ddd
+}
+
+.tabs-below > .nav-tabs > li {
+    margin-top: -1px;
+    margin-bottom: 0
+}
