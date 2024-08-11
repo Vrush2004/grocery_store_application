@@ -2304,11 +2304,6 @@ button.close:focus {
     color: #ffffff;
 }
 
-.sidebar-nav li {
-    /*line-height: 40px;*/
-    /*text-indent: 20px;*/
-}
-
 .sidebar-nav li a {
     color: #999999;
     display: block;
@@ -2324,12 +2319,6 @@ button.close:focus {
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-    /*height: 65px;*/
-    /*line-height: 60px;*/
-    /*font-size: 18px;*/
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -2385,4 +2374,132 @@ button.close:focus {
     -ms-transition: opacity 225ms ease;
     transition: opacity 225ms ease;
     pointer-events: none;
+}
+
+.taskItem-progress-list {
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    -webkit-transition: opacity 225ms ease;
+    -moz-transition: opacity 225ms ease;
+    -o-transition: opacity 225ms ease;
+    -ms-transition: opacity 225ms ease;
+    transition: opacity 225ms ease;
+    padding: 0 !important;
+    font-size: 17px;
+    margin: 0;
+}
+
+.taskItem-progress-bar {
+    border-color: rgba(102, 137, 100, 0.2);
+}
+
+.taskItem-progress-bar {
+    background: rgba(102, 137, 100, 0.2);
+}
+
+.taskItem-progress-bar-list {
+    border-color: rgba(102, 137, 100, 0.2);
+}
+
+.taskItem-progress-bar-list {
+    background: rgba(102, 137, 100, 0.2);
+}
+
+.taskItem-progress-bar {
+    z-index: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    -webkit-transition: width 225ms ease;
+    -moz-transition: width 225ms ease;
+    -o-transition: width 225ms ease;
+    -ms-transition: width 225ms ease;
+    transition: width 225ms ease;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.taskItem-progress-bar-list {
+    z-index: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    top: 0;
+    height: 52px;
+    width: 0%;
+    -webkit-transition: width 225ms ease;
+    -moz-transition: width 225ms ease;
+    -o-transition: width 225ms ease;
+    -ms-transition: width 225ms ease;
+    transition: width 225ms ease;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+#load-task-other-process-detail-with-task .box-info .nav-tabs > li.active > a {
+    background: #e1f2fe;
+}
+
+#load-task-other-process-detail-with-task .tabs-left > .nav-tabs > li > a:focus, .tabs-left > .nav-tabs > li > a:hover {
+    background: transparent;
+}
+
+@media (max-width: 767px) {
+    #wrapper {
+        padding-left: 70px;
+        transition: all .4s ease 0s;
+    }
+
+    #sidebar-wrapper {
+        left: 70px;
+    }
+
+    #wrapper.active {
+        padding-left: 150px;
+    }
+
+    #wrapper.active #sidebar-wrapper {
+        left: 150px;
+        width: 150px;
+        transition: all .4s ease 0s;
+    }
+
+    .navbar-header {
+        width: unset !important;
+    }
+}
+
+.process_template_div {
+    width: 90%;
+}
+
+.picker--opened .picker__holder {
+    background: rgba(0, 0, 0, 0.1) !important;
+    zoom: 0 !important;
+}
+
+.ui-timepicker-table td a {
+    width: 2.2em !important;
+}
+
+.open-edit-form td, .open-task-view td {
+    cursor: pointer;
+}
+
+.login-logo {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400 !important;
+    color: #232634;
 }
