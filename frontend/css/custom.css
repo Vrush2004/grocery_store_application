@@ -2032,3 +2032,123 @@ form.form-inline {
     font-size: 18px;
     padding-top: 4px;
 }
+
+#toast-container,
+.tooltip {
+    z-index: 99999999;
+    margin-top: 20px;
+}
+
+.custom-scrollbar {
+    height: auto;
+    max-height: 313px;
+    overflow-y: scroll;
+    overflow-x: hidden
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #F5F5F5
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555
+}
+
+.tooltip {
+    position: fixed;
+    word-break: break-word;
+}
+
+.draggable-container {
+    cursor: move
+}
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+    background: rgba(23, 43, 77, 0.5);
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.modal-content {
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.btn.btn-primary {
+    background: #0052cc;
+    border-color: #0052cc;
+}
+
+.btn.btn-primary:hover {
+    background: #0065ff;
+    border-color: #0065ff;
+}
+
+.btn.btn-primary:focus {
+    outline: none !important;
+    background: #0065ff;
+    border-color: #0065ff;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    /*position: static;*/
+    bottom: 8px;
+    right: inherit;
+    display: inline-block;
+    font-family: FontAwesome;
+    opacity: 0.9 !important;
+    margin-left: 10px;
+}
+
+table.dataTable thead th.sorting:after {
+    content: "\f0dc";
+    color: #979797;
+    font-size: 1em;
+    /*padding-top: 0.5em;*/
+}
+
+table.dataTable thead th.sorting_asc:after {
+    content: "\f160";
+    font-size: 0.9em;
+    color: #515151;
+}
+
+table.dataTable thead th.sorting_desc:after {
+    content: "\f161";
+    font-size: 0.9em;
+    color: #515151;
+}
+
+.task-count {
+    background-color: darkgrey;
+    padding: 1px;
+    border-radius: 100%;
+    width: 22px;
+    margin-left: 3px;
+    font-size: 14px;
+    font-weight: bolder;
+    position: absolute;
+    text-align: center;
+    color: #ffffff
+}
