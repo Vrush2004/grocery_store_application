@@ -2898,7 +2898,7 @@ table td[class*=col-], table th[class*=col-] {
 }
 
 .box-info.full.with-button .btn{
-    margin: -12px 0; !important;
+    margin: -12px 0 !important;
 }
 
 table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
@@ -2927,4 +2927,178 @@ table.dataTable thead th.sorting:after {
 .row.no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .navbar-default {
+        margin-left: 0;
+        border: none;
+    }
+
+    .right {
+        left: 0;
+    }
+
+    .mobile-content {
+        right: 0;
+    }
+
+    .left {
+        z-index: 1000;
+        width: 225px;
+    }
+
+    .button-menu-mobile {
+        background: #fff;
+        font-size: 18px;
+        height: 60px;
+        padding-left: 20px;
+        z-index: 999994;
+    }
+
+    button.navbar-toggle {
+        background: #fff;
+    }
+
+    .navbar-brand {
+        padding-left: 40px;
+    }
+
+    .left.mobile-sidebar {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
+    }
+
+    .table-responsive {
+        border: none;
+    }
+
+    .request-history{
+      margin-left:20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .right {
+        left: 0;
+    }
+
+    .mobile-content {
+        right: 0;
+    }
+
+    .left {
+        z-index: 1000;
+        width: 225px;
+    }
+
+    .navbar-brand {
+        padding-left: 35px;
+    }
+
+    .left.mobile-sidebar {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
+    }
+
+    .button-menu-mobile {
+        background: #fff;
+        font-size: 18px;
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    #sidebar-menu {
+        margin-top: 65px;
+    }
+
+    button.navbar-toggle {
+        background: #fff;
+    }
+}
+
+.body.rows {
+    bottom: 20px;
+    overflow-y: auto;
+}
+
+#form-list .form-item .btn {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.media.file {
+    border: 1px solid #eee;
+    border-radius: 3px;
+    width: 280px;
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.media.file:hover {
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tour-tour.popover {
+    background: #fff;
+    color: #111;
+    display: inline-table !important;
+    overflow: visible;
+}
+
+.tour-tour.popover .popover-title {
+    display: block;
+}
+
+.media.file .media-left img {
+    border-right: 1px solid #eee;
+    padding: 5px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid #ddd;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+}
+
+.list-group-item.active {
+    background: #f1f1f1;
+    border-color: #ddd;
+    color: #222;
+}
+
+.filters .bootstrap-select > .dropdown-toggle {
+    background: #fff;
+}
+
+.modal-body {
+    max-height: inherit !important;
+}
+
+#statusContainer #taskStatus::after {
+    font: normal normal normal 12px/1 FontAwesome;
+    text-rendering: auto;
+    content: "\f078";
+    color: #fff;
+    padding: 9px;
+    display: inline-block;
+    position: absolute;
+}
+
+#status .dropdown {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#statusContainer #taskStatus span {
+    padding: 8px 3px 9px 10px;
+    border-radius: 2px 0 0 2px;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
 }
