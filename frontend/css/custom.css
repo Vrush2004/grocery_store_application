@@ -3102,3 +3102,103 @@ table.dataTable thead th.sorting:after {
     font-weight: normal;
     display: inline-block;
 }
+
+.bg-red-gradient, .bg-yellow-gradient, .bg-aqua-gradient, .bg-blue-gradient, .bg-green-gradient, .bg-orange-gradient, .bg-purple-gradient {
+    color: #fff !important;
+}
+
+.bg-red-gradient {
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0, #dc3232), color-stop(1, #ff7979)) !important;
+}
+
+.bg-red-gradient-font {
+    color: #c20707 !important;
+}
+
+.bg-red-gradient-border {
+    border: 1px solid #ff7979;
+}
+
+.bg-aqua-gradient {
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0, #0eb5b5), color-stop(1, #17c1c0)) !important;
+}
+
+.bg-aqua-gradient-font {
+    color: #0eb5b5 !important;
+}
+
+.bg-aqua-gradient-border {
+    border: 1px solid #17c1c0;
+}
+
+.bg-blue-gradient {
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0, #1d74bd), color-stop(1, #1d8cda)) !important;
+}
+
+.bg-blue-gradient-font {
+    color: #1d74bd !important;
+}
+
+.bg-blue-gradient-border {
+    border: 1px solid #1d8cda;
+}
+
+.bg-green-gradient {
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0, #00a65a), color-stop(1, #00c36f)) !important;
+}
+
+.bg-green-gradient-font {
+    color: #00a65a !important;
+}
+
+.bg-green-gradient-border {
+    border: 1px solid #00c36f;
+}
+
+.bg-yellow-gradient {
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0, #f78a00), color-stop(1, #ffa207)) !important;
+}
+
+.bg-yellow-gradient-font {
+    color: #f78a00 !important;
+}
+
+.bg-yellow-gradient-border {
+    border: 1px solid #ffa207;
+}
+
+.bg-purple-gradient {
+    background: -webkit-gradient(linear, right bottom, right top, color-stop(0, #940694), color-stop(1, #b406b4)) !important;
+}
+
+.bg-purple-gradient-font {
+    color: #940694 !important;
+}
+
+.bg-purple-gradient-border {
+    border: 1px solid #b406b4;
+}
+
+.small-box {
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    /*margin-bottom: 20px;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.small-box > .inner {
+    padding: 10px;
+}
+
+.small-box h3, .small-box p {
+    z-index: 5;
+}
+
+.small-box h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+}
