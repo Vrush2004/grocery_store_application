@@ -3632,3 +3632,87 @@ p {
 .sub-task-label, #input-container .table th{
   color: #5e6c84;
 }
+
+@media (min-width: 980px) and (max-width: 1024px) {
+    #custom-search-input{
+      display:none;
+    }
+}
+  
+.task-rating{
+    margin: 0;
+    background: white;
+    position: relative;
+}
+  
+.announcement-list{
+      color:black;
+      text-decoration: none;
+      cursor: pointer;
+}
+  
+.announcement-list-item{
+      border-bottom: 1px solid #eeeeee;
+      padding-left: 15px;
+}
+  
+.announcement-description {
+    overflow:hidden;
+}
+  
+.announcement-description img {
+      object-fit: cover !important;
+      width: 100% !important;
+}
+  
+.dz-message{
+    text-align: center;
+    cursor:pointer;
+}
+  
+.dashboard-filter-drop{
+    background: transparent;
+    border: 1px solid #ffffff3d;
+}
+  
+.dashboard-filter-drop option{
+    color:black;
+    background:#f4f5f7;
+}
+img {
+      image-orientation: from-image !important;
+}
+  
+.pace .pace-progress{
+    background: transparent;
+}
+  
+.additional-btn a{
+    text-decoration:none;
+}
+
+  @media (max-width: 767px) {
+    .task-template-label-control {
+        margin-top: 15px;
+    }
+    .task-template-form-control{
+      margin-bottom: 0px;
+    }
+}
+
+#task-detail #desc .table, #task-detail .note-editable .table{
+  width:unset;
+}
+
+#sidebar-menu-list li.selected > a {
+    color: #626669 !important;
+    font-weight: normal !important;
+}
+
+.ticket-detail-container .bootstrap-tagsinput{
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+  
