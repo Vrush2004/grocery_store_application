@@ -3374,3 +3374,99 @@ p {
         padding: 0 0 15px 0 !important;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .dashboard-card-container-col {
+        padding-left: 0px !important;
+    }
+}
+
+.toast-title {
+    color: #444 !important;
+}
+
+.box-info .btn-group {
+    z-index: 99;
+}
+
+.remove-parent-padding {
+    color: rgb(51, 51, 51);
+    text-decoration: none !important;
+}
+
+.remove-parent-padding > div {
+    padding: 5px 15px;
+}
+
+.post-comment-button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.grid_popover_element, .popover_element {
+    text-decoration: none !important;
+}
+
+.helpnav {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    z-index: 2;
+    top: 80px;
+    right: 0;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    overflow-x: hidden;
+}
+
+.helpnav .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+    cursor: pointer;
+}
+
+.helpnav .close {
+    margin-right: 10px !important;
+    margin-top: 15px !important;
+}
+
+.help-content-block {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.help-button {
+    cursor: pointer;
+    position: fixed;
+    top: 35vh;
+    right: -45px;
+    z-index: 1;
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    transition: 1s;
+    width: 120px;
+}
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 25%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
