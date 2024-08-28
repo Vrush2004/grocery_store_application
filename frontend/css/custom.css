@@ -3805,3 +3805,85 @@ img {
 #sidebar-menu > ul > li:last-child{
       margin-bottom: 30px;
 }
+
+.ticket-grid-pill > .active, .ticket-grid-pill > .active:hover{
+    color: white;
+    background-color: #0057C7;
+    border-color: #0057C7;
+}
+
+.ticket-grid-pill > li > a {
+    color:#333;
+    text-decoration: none;
+}
+
+.ticket-grid-pill > .active > span, .ticket-grid-pill > .active > span:hover{
+    color: #0057C7 !important;
+    background-color: white !important;
+}
+
+.label-purple {
+    background-color: #804fbf;
+}
+
+table.dataTable.table-condensed .sorting:after, table.dataTable.table-condensed .sorting_asc:after, table.dataTable.table-condensed .sorting_desc:after{
+    top:unset !important;
+}
+
+.bootstrap-select .dropdown-menu li.active.disabled a{
+    color: #fff !important;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background: #0057C7 !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary{
+    background: #0057C7 !important;
+}
+
+.text-primary{
+    color: #0057C7 !important;
+}
+
+.input-container table{
+    width: 100%;
+}
+.input-container table, .input-container th, .input-container td {
+    border: 1px solid #eee;
+    text-align: left !important;
+}
+
+.extend-pop-container:hover .extend-task-button{
+    display:inline-block !important;
+    width: 20px;
+    height: 18px;
+    padding-top: 0px;
+    width: 20px;
+}
+
+#showPassword, .showPassword {
+    cursor: pointer;
+}
+
+.table tr th{
+    font-weight: bold !important;
+}
+
+.blink_me {
+    animation: blinker 2s linear infinite;
+}
+
+.user-profile-preview{
+    color: #2265d0;
+}
+
+.powered-by{
+    position: absolute;
+    bottom: 15px;
+    background:white;
+    padding-top: 12px;
+    border-top:1px solid #f3f5f7;
+    left:0px;right: 0px;
+    margin-bottom: 3px;
+}
