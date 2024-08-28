@@ -3715,4 +3715,93 @@ img {
   box-shadow: none !important;
   background: transparent !important;
 }
+
+.ticket-detail-container .bootstrap-tagsinput input:focus{
+    border: none !important;
+}
   
+.ticket-detail-container .bootstrap-tagsinput .label-info{
+    background: #104b5d;
+}
+  
+#ticket_amount::-webkit-inner-spin-button,
+#ticket_amount::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+}
+  
+#ticket_amount {
+    -moz-appearance:textfield;
+}
+  
+.ticket-detail-container .ticket-amount{
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      background: transparent !important;
+      padding-left: 6px;
+      padding-right: 6px;
+      width: 250px;
+}
+  
+.ticket-attachment-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+  
+.ticket-file-attachment-container{
+    text-align: center;
+    padding: 0;
+    border:1px solid #ddd;
+    overflow: hidden;
+    background: #fff;
+    margin: 10px 10px 0;
+}
+  
+.ticket-file-attachment-container > a{
+    text-decoration: none;
+    color: #666;
+}
+  
+.ticket-file-attachment-container > a > img{
+    object-fit: cover;
+      height: 83px;
+      width: 83px;
+}
+  
+.ticket-file-attachment-container > a > p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    padding: 4px 10px 5px;
+    margin-bottom: 0;
+    background: #f1f1f1;
+}
+  
+.ticket-file-attachment-container .btn-danger{
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    color:white;
+}
+  
+.ticket-file-attachment-container:hover .btn-danger{
+    display:block !important;
+}
+  
+.ticket-comment-action-container{
+    margin-top: -20px;
+    position: absolute;
+    right: 45px;
+    display:none;
+}
+  
+.panel:hover .ticket-comment-action-container{
+    display:block !important;
+}
+  
+#sidebar-menu > ul > li:last-child{
+      margin-bottom: 30px;
+}
