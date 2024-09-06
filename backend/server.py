@@ -48,11 +48,18 @@ def delete_product():
 
 @app.route('/insertOrder', methods=['POST'])
 def insert_order():
-    request_payload = json.loads(request.form['data'])
+    request_payload = json()
     order_id = order_deo.insert_order(connection, request_payload)
     response = jsonify({
         'order_id':order_id
     })
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
+
+@app.route('/getAllOrders', methods=['GET'])
+def get_all_orders():
+    response = order_deo.get_all_orders(connection)
+    response = jsonify(response)
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
