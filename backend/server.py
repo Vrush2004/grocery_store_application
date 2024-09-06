@@ -1,14 +1,17 @@
 import json
 
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 from sql_connection import get_sql_connection
 import products_dao
 import uom_dao
+import order_deo
 
 connection = get_sql_connection()
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/getProducts')
 def hello():
@@ -33,6 +36,26 @@ def insert_product():
     })
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
+
+@app.route('/deleteProduct', methods=['POST'])
+def delete_product():
+    return_id = products_dao.delete_product(connection, request.form['product_id'])
+    response = jsonify({
+        'product_id':return_id
+    })
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
+
+@app.route('/insertOrder', methods=['POST'])
+def insert_order():
+    request_payload = json.loads(request.form['data'])
+    order_id = order_deo.insert_order(connection, request_payload)
+    response = jsonify({
+        'order_id':order_id
+    })
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response
+
 
 if __name__ == '__main__':
     print("Starting python flask server for Grocery Management System")
