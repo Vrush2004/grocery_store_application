@@ -22,5 +22,13 @@ The Grocery Store Application is a web-based platform that enables users to brow
 Open your browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
 ## Screenshots
+### Home Page
+![GSMS](https://github.com/user-attachments/assets/0cdac6b4-e301-4723-ab56-86c85957d02d)
+<br>
+### Add New Orders
+![new_order](https://github.com/user-attachments/assets/cc019fb6-d97c-4560-9530-a0cfcf4c2860)
+<br>
+### Manage Orders
+![manage_order](https://github.com/user-attachments/assets/c8699588-5957-412c-be63-a9bd6a3023fd)
 
 
